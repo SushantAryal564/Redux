@@ -5,4 +5,5 @@ import { configureStore } from "@reduxjs/toolkit";
 const store = configureStore({
   reducer: { counter: counterSlice.reducer, auth: AuthSlice.reducer },
 });
+
 export default store;
